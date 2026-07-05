@@ -1,0 +1,15 @@
+.quiz {
+  width: 350px;
+  margin: 50px auto;
+  padding: 20px;
+  text-align: center;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  background: #f8f8f8;
+}
+
+.points {
+  font-size: 22px;
+  font-weight: bold;
+  color: rgb(19, 29, 222);
+}

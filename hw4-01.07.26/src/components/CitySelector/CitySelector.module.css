@@ -1,0 +1,10 @@
+.selector {
+  margin: 20px 0;
+  
+}
+
+select {
+  margin-left: 10px;
+  padding: 8px;
+  font-size: 16px;
+}
