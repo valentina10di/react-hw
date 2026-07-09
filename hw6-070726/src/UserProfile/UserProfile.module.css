@@ -1,0 +1,60 @@
+.card {
+  background-color: #c9f299; 
+  width: 100%;
+  max-width: 450px;
+  margin: 40px auto;
+  padding: 40px 20px;
+  border-radius: 4px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+  text-align: center;
+}
+
+.avatarContainer {
+  margin-bottom: 35px;
+}
+
+.avatar {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  border: 3px solid #7cb342; 
+  object-fit: cover;
+}
+
+.name {
+  color: #2e4d10; 
+  font-size: 26px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+.info {
+  font-size: 18px;
+  color: #4a5c38;
+  margin: 25px 0;
+}
+
+.text {
+  color: #333333;
+}
+
+.button {
+  background-color: #e0e0e0;
+  border: none;
+  padding: 12px 24px;
+  font-size: 15px;
+  color: #000000;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background-color 0.2s;
+}
+
+.button:hover {
+  background-color: #d5d5d5;
+}
+
+.loading {
+  text-align: center;
+  font-size: 20px;
+  margin-top: 50px;
+}
