@@ -1,0 +1,15 @@
+.app{
+  background-color: #0C0417; 
+  color: #1ED760;
+ width: 100%;
+  max-width: 1707px; 
+  height: 100vh; 
+  max-height: 796px;
+  margin: 50px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+
+}

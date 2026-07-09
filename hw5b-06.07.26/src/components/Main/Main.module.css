@@ -1,0 +1,28 @@
+.main{
+
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    gap: 31.5px;
+}
+
+.title{
+    font-size:clamp(28px,4vw,64px);
+    text-align:center;
+    font-weight:700;
+}
+
+.subtitle{
+    /* margin-top:25px; */
+    font-size:clamp(16px,2vw,24px);
+    text-align:center;
+}
+
+@media (max-width: 768px){
+
+    .main{
+        gap:18px;
+    }
+
+}
