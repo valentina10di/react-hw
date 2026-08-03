@@ -1,0 +1,27 @@
+.navbar {
+  width: clamp(120px, 15vw, 180px);
+  flex-shrink: 0;
+}
+
+.navList {
+  list-style-type: disc;
+  padding-left: clamp(16px, 2vw, 24px);
+  margin: 0;
+}
+
+.navList li {
+  margin-bottom: clamp(6px, 1vh, 12px);
+}
+
+.navLink {
+  font-size: clamp(12px, 1.8vw, 16px);
+  color: #1f0bf6;
+  text-decoration: underline;
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+.navLink:hover {
+  color: #595982;
+}
+

@@ -1,0 +1,14 @@
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: clamp(16px, 4vw, 40px);
+  gap: clamp(20px, 5vw, 60px);
+  background: linear-gradient(180deg, #ffe0e6 0%, #f7d1db 100%);
+}
+
+.header {
+  width: clamp(140px, 20vw, 220px);
+  flex-shrink: 0;
+  
+}

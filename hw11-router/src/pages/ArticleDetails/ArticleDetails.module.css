@@ -1,0 +1,48 @@
+.container {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  /* Расположение в правой нижней части экрана */
+  margin-top: 15vh;
+  margin-left: auto;
+  max-width: 600px;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #000;
+  margin-bottom: 16px;
+}
+
+.content {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 16px;
+}
+
+.path {
+  font-size: 16px;
+  color: #111;
+  margin-bottom: 24px;
+}
+
+/* Превращаем Link в красивую синюю кнопку */
+.backButton {
+  display: inline-block;
+  background-color: #007bff;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 6px;
+  padding: 10px 28px;
+  font-size: 12px;
+  font-weight: 600;
+  box-shadow: 0 4px 10px rgba(0, 123, 255, 0.3);
+  transition: all 0.2s ease;
+}
+
+.backButton:hover {
+  background-color: #0056b3;
+  transform: translateY(-1px);
+}
