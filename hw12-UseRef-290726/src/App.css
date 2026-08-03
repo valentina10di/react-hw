@@ -1,0 +1,20 @@
+.app {
+  padding: 30px;
+  border-top: 12px solid #333333;
+  margin: 20px;
+  max-width: 500px;
+}
+
+h1 {
+  font-size: 36px;
+  margin-bottom: 25px;
+}
+
+.input-field {
+  padding: 4px 8px;
+  font-size: 16px;
+  border: 1px solid #767676;
+  border-radius: 2px;
+  outline: none;
+  width: 250px;
+}
