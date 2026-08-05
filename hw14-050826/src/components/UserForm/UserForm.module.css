@@ -1,0 +1,46 @@
+.container h2 {
+  font-size: 26px;
+  margin-bottom: 20px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 250px;
+}
+
+.field {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.field label {
+  font-size: 18px;
+}
+
+.field input {
+  width: 170px;
+  height: 20px;
+  border: 1px solid #767676;
+  padding: 2px 4px;
+}
+
+.errorText {
+  color: red;
+  font-size: 14px;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.button {
+  align-self: flex-start;
+  padding: 2px 10px;
+  font-size: 14px;
+  cursor: pointer;
+  background-color: #efefef;
+  border: 1px solid #767676;
+  margin-top: 4px;
+}
+

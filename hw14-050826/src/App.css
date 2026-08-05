@@ -1,0 +1,12 @@
+.app {
+  border-top: 4px solid #333;
+  padding: 20px 8px;  
+  max-width: 300px;
+  margin: 40px auto;
+  color: #000;
+}
+
+h1 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
