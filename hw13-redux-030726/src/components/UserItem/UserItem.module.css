@@ -1,0 +1,10 @@
+.item {
+  padding: 10px 14px;
+  border-bottom: 1px solid #e0e0e0;
+  font-size: 15px;
+  color: #333;
+}
+
+.item:last-child {
+  border-bottom: none;
+}
