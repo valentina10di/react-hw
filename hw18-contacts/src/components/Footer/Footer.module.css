@@ -1,0 +1,73 @@
+.footer {
+    background-color: #232425;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.container {
+    width: 73.9583%;
+    margin: 0 auto;
+    padding-top: 66px;
+    padding-bottom: 48px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.flexColumn {
+    display: flex;
+    flex-direction: column;
+}
+
+.contacts {
+    gap: 93px;
+}
+
+.contactsWrapper {
+    gap: 39px;
+}
+
+.title {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 81%;
+    color: #fff;
+    opacity: 0.8;
+}
+
+.blockPhoneEmail {
+    gap: 13px;
+}
+
+.dataContact {
+    font-size: 18px;
+    line-height: 81%;
+}
+
+.rights {
+    font-size: 20px;
+    line-height: 81%;
+}
+
+.socials{
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.social{
+    display: flex;
+    gap: 26px;
+}
+
+.input {
+    outline: none;
+    border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    width: 407px;
+    background-color: #232425;
+    padding-bottom: 15px;
+    color: #fff;
+    transition: 0.3s;
+}
+
+.input:focus {
+    border-bottom: 1px solid rgb(255, 255, 255);
+}

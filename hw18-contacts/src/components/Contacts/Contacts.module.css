@@ -1,0 +1,328 @@
+.contactsSection {
+    width: 100%;
+    padding: 50px 0 120px;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 67.9167%;
+    max-width: 1304px;
+    margin-left: 13.0208%;
+    box-sizing: border-box;
+}
+
+
+.title {
+    margin: 0;
+    padding: 0 0 20px;
+
+    border-bottom: 1px solid #ebebeb;
+
+    font-size: 32px;
+    line-height: 39px;
+    font-weight: 600;
+    color: #1e1e1e;
+}
+
+
+.contentWrapper {
+    display: grid;
+    grid-template-columns: minmax(0, 767px) minmax(280px, 458px);
+    column-gap: 79px;
+    align-items: start;
+
+    margin-top: 116px;
+}
+
+
+
+
+.leftColumn {
+    width: 100%;
+    min-width: 0;
+}
+
+
+
+
+.infoList {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    margin: 0 0 67px;
+    padding: 0;
+
+    list-style: none;
+
+    font-size: 14px;
+    line-height: 17px;
+    color: #555555;
+}
+
+
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.inputsRow {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 39px;
+
+    width: 100%;
+    margin-bottom: 39px;
+}
+
+.input {
+    width: 100%;
+    height: 66px;
+
+    padding: 0 20px;
+    box-sizing: border-box;
+
+    border: none;
+    border-radius: 8px;
+
+    background-color: #f7f7f7;
+
+    font-family: inherit;
+    font-size: 14px;
+    color: #1e1e1e;
+
+    outline: none;
+}
+
+.input::placeholder,
+.textarea::placeholder {
+    color: #999999;
+}
+
+.textarea {
+    width: 100%;
+    height: 116px;
+
+    padding: 20px;
+    box-sizing: border-box;
+
+    margin: 0 0 31px;
+
+    border: none;
+    border-radius: 8px;
+
+    background-color: #f7f7f7;
+
+    font-family: inherit;
+    font-size: 14px;
+    color: #1e1e1e;
+
+    resize: none;
+    outline: none;
+}
+
+.button {
+    align-self: flex-end;
+
+    padding: 21px 25px;
+
+    border: none;
+    border-radius: 8px;
+
+    background-color: #1e1e1e;
+    color: #ffffff;
+
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: 500;
+
+    cursor: pointer;
+
+    transition: background-color 0.2s ease;
+}
+
+.button:hover {
+    background-color: #383838;
+}
+
+
+.socialCard {
+    width: 100%;
+    max-width: 458px;
+    min-height: 221px;
+
+    margin: 110px 0 0;
+    padding-top: 18px;
+
+    box-sizing: border-box;
+
+    border-radius: 12px;
+
+    background-color: #f7f7f7;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.socialTitle {
+    margin: 0;
+    font-size: 14px;
+    line-height: 17px;
+    color: #555555;
+}
+
+.socialIcons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 39px;
+}
+
+.socialIcons img {
+    display: block;
+
+    width: 76px;
+    height: 76px;
+
+    object-fit: contain;
+
+    transition: transform 0.2s ease;
+}
+
+.socialIcons img:hover {
+    transform: scale(1.1);
+}
+
+
+
+@media (max-width: 1200px) {
+    .container {
+        width: calc(100% - 80px);
+        max-width: none;
+        margin: 0 40px;
+    }
+
+    .contentWrapper {
+        grid-template-columns: minmax(0, 1fr) minmax(280px, 40%);
+        gap: 40px;
+    }
+
+    .socialCard {
+        margin-top: 110px;
+    }
+
+    .socialIcons {
+        gap: 30px;
+    }
+
+    .socialIcons img {
+        width: 64px;
+        height: 64px;
+    }
+}
+
+
+@media (max-width: 900px) {
+    .container {
+        width: calc(100% - 48px);
+        margin: 0 24px;
+    }
+
+    .contentWrapper {
+        grid-template-columns: 1fr;
+        gap: 50px;
+    }
+
+    .socialCard {
+        max-width: 458px;
+        margin-top: 0;
+        justify-self: start;
+    }
+}
+
+
+@media (max-width: 600px) {
+    .contactsSection {
+        padding: 32px 0 80px;
+    }
+
+    .container {
+        width: calc(100% - 32px);
+        margin: 0 16px;
+    }
+
+    .title {
+        padding-bottom: 16px;
+
+        font-size: 24px;
+        line-height: 29px;
+    }
+
+    .contentWrapper {
+        margin-top: 50px;
+        gap: 40px;
+    }
+
+    .infoList {
+        margin-bottom: 40px;
+        font-size: 13px;
+        line-height: 16px;
+    }
+
+    .inputsRow {
+        grid-template-columns: 1fr;
+        gap: 16px;
+        margin-bottom: 16px;
+    }
+
+    .input {
+        height: 56px;
+    }
+
+    .textarea {
+        height: 120px;
+        margin-bottom: 24px;
+    }
+
+    .button {
+        padding: 16px 22px;
+    }
+
+    .socialCard {
+        width: 100%;
+        max-width: none;
+        min-height: 180px;
+        padding: 24px;
+    }
+
+    .socialIcons {
+        gap: 28px;
+        margin-top: 28px;
+    }
+
+    .socialIcons img {
+        width: 56px;
+        height: 56px;
+    }
+}
+
+
+@media (max-width: 380px) {
+    .container {
+        width: calc(100% - 24px);
+        margin: 0 12px;
+    }
+
+    .socialIcons {
+        gap: 20px;
+    }
+
+    .socialIcons img {
+        width: 50px;
+        height: 50px;
+    }
+}

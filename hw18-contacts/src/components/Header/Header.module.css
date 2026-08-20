@@ -1,0 +1,37 @@
+.header {
+    background-color: #3b3c3d;
+    color: #fff;
+}
+
+.container{
+    width: 73.9583%;
+    margin: 0 auto;
+    padding: 43px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logoLink{
+    color: #fff;
+}
+
+/* .logo{
+
+} */
+
+.nav{
+    display: flex;
+    align-items: center;
+    gap: 64px;
+}
+
+.link {
+    font-weight: 600;
+    font-size: 15px;
+    transition: color 0.2s ease;
+}
+
+.link:hover{
+    color: #fff !important /* перебиваем инлайновый (строчный) style из NavLink */
+}
